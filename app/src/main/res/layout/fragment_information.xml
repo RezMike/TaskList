@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_beginning" />
+    <TextView
+        style="@style/InformationTitle"
+        android:text="@string/information_interface" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_interface_text" />
+    <TextView
+        style="@style/InformationTitle"
+        android:text="@string/information_list" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_list_text" />
+    <TextView
+        style="@style/InformationSubtitle"
+        android:text="@string/information_list_add" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_list_add_text" />
+    <TextView
+        style="@style/InformationSubtitle"
+        android:text="@string/information_list_delete" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_list_delete_text" />
+    <TextView
+        style="@style/InformationTitle"
+        android:text="@string/information_element" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_element_text" />
+    <TextView
+        style="@style/InformationSubtitle"
+        android:text="@string/information_photo" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_photo_text" />
+    <TextView
+        style="@style/InformationSubtitle"
+        android:text="@string/information_date" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_date_text" />
+    <TextView
+        style="@style/InformationSubtitle"
+        android:text="@string/information_reminder" />
+    <TextView
+        style="@style/InformationText"
+        android:text="@string/information_reminder_text"
+        android:paddingBottom="15dp" />
+</LinearLayout>
+</ScrollView>

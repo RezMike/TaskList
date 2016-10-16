@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_list_information"
+        android:icon="@drawable/information"
+        android:title="@string/information_label"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_item_new_task"
+        android:icon="@drawable/add"
+        android:title="@string/new_task"
+        android:showAsAction="ifRoom|withText"/>
+</menu>
